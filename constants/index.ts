@@ -30,7 +30,7 @@ export const NavLinks = [
         'Explore development work',
         'Development blog',
         'Code podcast',
-        'Open-source projects',
+        'Open-source Projects',
         'Refer a Friend',
         'Code of conduct',
       ],
