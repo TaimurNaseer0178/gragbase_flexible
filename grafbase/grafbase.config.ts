@@ -6,10 +6,10 @@ avatorUrl:g.url(),
 description:g.string().optional(),
 githubUrl:g.url().optional(),
 linkedUrl:g.url().optional(),
-projects:g.relation(()=>projects).list().optional(),
+projects:g.relation(()=>Projects).list().optional(),
 
 })
-const projects=g.model('projects',{
+const Projects=g.model('Projects',{
   title:g.string().length({min:3}),
   description:g.string(),
   image:g.url(),
